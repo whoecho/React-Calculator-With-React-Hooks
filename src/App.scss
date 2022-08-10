@@ -1,21 +1,11 @@
-*,*::before,*::after{
-  box-sizing: border-box;
-}
+
 *{
   font-size: 40px;
-  margin: 0;
-  border: 0;
 
-  padding: 0;
 }
-body{
-  margin: 0;
 
-
-
-  h1{
-    margin-top: 102px;
-  }
+h1{
+  margin-top: 102px;
 }
 .calc-grid{
 
@@ -28,37 +18,28 @@ box-shadow: 0px 0px 100px #06678a;
 
 
 .ops{
-  flex: 1 1 0%;
+
   display: flex;
-outline: none;
+
 
   button{
     border: 0.5px solid #868686;
 display: flex;
-vertical-align: center;
+
 justify-content: center;
 align-items: center;
     background-color: #8c8c8c;
     width: 20%;
     height: 100px;
-
     transition: all 0.4s ease-in-out;
     cursor: pointer;
   }
   button:hover{
-
-
-
    background-color: #525252;
-
-
   }
 
 }
-.dig{
-  display: flex;
-  flex-wrap: wrap;
-}
+
 
   .dig button{
 flex: 1 1 33.333%;
@@ -74,7 +55,7 @@ border: 0.5px solid #b0b0b0;
 
   }
   .dig button:hover{
-    z-index: 2;
+
 
 background-color: #c9c9c9;
 
@@ -90,11 +71,9 @@ height: 161px;
   display: flex;
   opacity: 46.5%;
 background-color: #c5c5c5;
-
   border: 1px solid black;
   flex-direction: column;
   .preRes{
-
     opacity: 26.5%;
   }
 }
